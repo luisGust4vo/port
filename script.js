@@ -11,7 +11,7 @@ function aviso(){
       })
       .then((willDelete) => {
         if (willDelete) {
-          swal("Vlww!", {
+          swal( {
              title: "Vlw!!!",
              icon: "success" 
           });
